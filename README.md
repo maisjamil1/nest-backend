@@ -93,7 +93,7 @@ curl --location 'http://localhost:3333/items' \
 Prisma makes it easier to work with databases. It provides a type-safe query builder which helps prevent errors and enhances developer productivity. Prisma's auto-generated migrations and intuitive schema management simplify database operations.
 
 ### Turborepo 
-I wish I could use Turborepo to put the frontend and backend together in one place and start them both with just one command.
+I wish I could use Turborepo(as monorepo) to put the frontend and backend together in one place and start them both with just one command.
 (https://www.youtube.com/watch?v=nY0R7pslbCI)
 
 
