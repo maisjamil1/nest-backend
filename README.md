@@ -45,3 +45,18 @@ npx prisma migrate dev
 ```
 npm start
 ```
+
+### step 7 :
+go to postman and try this curl :
+
+```
+curl --location 'http://localhost:3333/items' \
+--header 'Content-Type: application/json' \
+--data '{
+  "itemName": "logitech-g733",
+  "itemPrice": 140,
+  "itemImage": "https://image.citycenter.jo/cache/catalog/112021/GG7731-1200x1200.jpg",
+  "itemDescription": "Total freedom with up to 20 m wireless range and LIGHTSPEED wireless audio transmission. Keep playing for up to 29 hours of battery life. Play in stereo on PlayStation(R) 4..Note : If the size of the earbud tips does not match the size of your ear canals or the headset is not worn properly in your ears, you may not obtain the correct sound qualities or call performance. Change the earbud tips to ones that fit more snugly in your ear"
+
+}'
+```
