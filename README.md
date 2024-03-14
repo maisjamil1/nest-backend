@@ -139,4 +139,8 @@ curl --location 'http://localhost:3333/items' \
 curl --location 'http://localhost:3333/items/1' \
 --data ''
 ```
-
+### getting all items :
+```
+curl --location 'http://localhost:3333/items' \
+--data ''
+```
