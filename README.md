@@ -89,6 +89,32 @@ Prisma makes it easier to work with databases. It provides a type-safe query bui
 
 ---------------------------------------------------------------------------------------------
 ## API endpoints :
+### sign up :
+```
+curl --location 'http://localhost:3333/auth/local/signup' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email":"mais@gmail.com",
+    "password":"123"
+
+}'
+```
+### sign in :
+```
+curl --location 'http://localhost:3333/auth/local/signin' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email":"mais@gmail.com",
+    "password":"123"
+
+}'
+```
+### refresh :
+```
+curl --location --request POST 'http://localhost:3333/auth/refresh' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoibWFpc0BnbWFpbC5jb20iLCJpYXQiOjE3MTA0NDk5MTAsImV4cCI6MTcxMTA1NDcxMH0.CtMZfxbSoFAWgU6YTWM3qPzCO7rdmom2SNvN-NRniMk' \
+--data ''
+```
 
 ### adding item 
 ```
