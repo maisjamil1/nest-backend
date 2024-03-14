@@ -83,9 +83,12 @@ curl --location 'http://localhost:3333/items' \
 - Reliable: It makes sure that all the sales and customer data is accurate and consistent, which is crucial for keeping everything running smoothly.
 
 #### Choosing Prisma
+
 Prisma makes it easier to work with databases. It provides a type-safe query builder which helps prevent errors and enhances developer productivity. Prisma's auto-generated migrations and intuitive schema management simplify database operations.
+
 ---------------------------------------------------------------------------------------------
 ## API endpoints :
+
 ### adding item 
 ```
 curl --location 'http://localhost:3333/items' \
