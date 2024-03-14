@@ -40,3 +40,8 @@ npx prisma init
 ```
 npx prisma migrate dev
 ```
+
+### step 6 :
+```
+npm start
+```
