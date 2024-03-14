@@ -95,6 +95,8 @@ Prisma makes it easier to work with databases. It provides a type-safe query bui
 ### Turborepo 
 I wish I could use Turborepo to put the frontend and backend together in one place and start them both with just one command.
 (https://www.youtube.com/watch?v=nY0R7pslbCI)
+
+
 ---------------------------------------------------------------------------------------------
 ## API endpoints, in postman try :
 ### sign up :
