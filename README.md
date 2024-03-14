@@ -62,6 +62,14 @@ curl --location 'http://localhost:3333/items' \
 ```
 
 ----------------------------------------------------------------------------------------
+#### Choosing NestJS
+- Modern JavaScript: NestJS uses TypeScript by default,leading to more robust and error-resistant code.
+
+- Structure and Scalability: It provides an out-of-the-box application architecture that helps organize code in a scalable way. This makes it easier to manage and scale your project as it grows.
+
+- Reusable Code: Through modules, services, and providers, you can easily reuse code across your application, making development more efficient.
+
+
 #### why Choosing PostgreSQL over MySQL for an online store :
 
 - Handles Complex Info Well making things like searching and organizing data easier.
@@ -73,4 +81,7 @@ curl --location 'http://localhost:3333/items' \
 - Keeps Data Safe: PostgreSQL has strong security features to keep everything safe.
 
 - Reliable: It makes sure that all the sales and customer data is accurate and consistent, which is crucial for keeping everything running smoothly.
+
+#### Choosing Prisma
+Prisma makes it easier to work with databases. It provides a type-safe query builder which helps prevent errors and enhances developer productivity. Prisma's auto-generated migrations and intuitive schema management simplify database operations.
 
