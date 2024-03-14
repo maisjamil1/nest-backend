@@ -1,9 +1,9 @@
 To run the backend :
 ### Step 1: Install Dependencies
-Before you begin, ensure you have Node.js, Docker, and Yarn (or npm) installed on your machine.
+ensure you have Node.js, Docker, and Yarn (or npm) installed on your machine.
 
 ### Step 2: Set Up Environment Variables
-Create a .env file in the root of your project and define the following variables, feel free to check .env.example:
+create a .env file in the root of the project and define the following variables, feel free to check .env.example:
 ```
 PORT=3333
 DATABASE_URL="postgresql://postgres:123@localhost:5432/nestjs?schema=public"
@@ -15,12 +15,12 @@ POSTGRES_PASSWORD=123
 POSTGRES_DB=nestjs
 ```
 ### Step 3: Start the PostgreSQL Database
-Open a terminal and navigate to the root directory of your project where the docker-compose.yml file is located. Run the following command to start the PostgreSQL database:
+Open a terminal and navigate to the root directory of the project where the docker-compose.yml file is located. Run the following command to start the PostgreSQL database:
 
 `docker-compose up -d`
 
 ### Step 4: Install Project Dependencies
-Still in the root directory of your project, run the following command to install the necessary dependencies:
+Still in the root directory of the project, run the following command to install the necessary dependencies:
 ```
 yarn
 
@@ -41,7 +41,7 @@ npx prisma init
 npx prisma migrate dev
 ```
 
-to run Prisma Studio is a visual editor for the data in your database.
+to run Prisma Studio is a visual editor for the data in the database.
 ```
 npx prisma studio
 ```
