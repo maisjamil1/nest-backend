@@ -119,6 +119,12 @@ curl --location 'http://localhost:3333/auth/local/signin' \
 
 }'
 ```
+### logout :
+```
+curl --location --request POST 'http://localhost:3333/auth/logout' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImVtYWlsIjoibWFpczJAZ21haWwuY29tIiwiaWF0IjoxNzEwNDU0NjMxLCJleHAiOjE3MTA0NTU1MzF9.DB6IRyQP9zC1W23tJb90ZGwJvlg1K1C0a8hcX2AQCJQ' \
+--data ''
+```
 ### refresh :
 ```
 curl --location --request POST 'http://localhost:3333/auth/refresh' \
