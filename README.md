@@ -62,6 +62,7 @@ curl --location 'http://localhost:3333/items' \
 ```
 
 ----------------------------------------------------------------------------------------
+## WHY : 
 #### Choosing NestJS
 - Modern JavaScript: NestJS uses TypeScript by default,leading to more robust and error-resistant code.
 
@@ -70,7 +71,7 @@ curl --location 'http://localhost:3333/items' \
 - Reusable Code: Through modules, services, and providers, you can easily reuse code across your application, making development more efficient.
 
 
-#### why Choosing PostgreSQL over MySQL for an online store :
+#### Choosing PostgreSQL over MySQL for an online store :
 
 - Handles Complex Info Well making things like searching and organizing data easier.
 
