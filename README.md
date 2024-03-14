@@ -41,6 +41,11 @@ npx prisma init
 npx prisma migrate dev
 ```
 
+to run Prisma Studio is a visual editor for the data in your database.
+```
+npx prisma studio
+```
+
 ### step 6 :
 ```
 npm start
